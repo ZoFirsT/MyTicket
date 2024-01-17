@@ -11,8 +11,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Evently',
-  description: 'Evently is a platform for event management.',
+  title: 'MyTicket',
+  description: 'RmutpTicket is an innovative event management platform designed specifically for RMUTP community. Offering features like ticket booking, event scheduling, and interactive maps, it serves as a one-stop solution for students and faculty to organize and participate in campus events efficiently.',
   icons: {
     icon: '/assets/images/logo.svg'
   }
