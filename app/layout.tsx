@@ -13,12 +13,32 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'MyTicket',
-  description: 'RmutpTicket is an innovative event management platform designed specifically for RMUTP community. Offering features like ticket booking, event scheduling, and interactive maps, it serves as a one-stop solution for students and faculty to organize and participate in campus events efficiently.',
+  title: 'MyTicket - RMUTP Event Platform', // More descriptive title
+  description: 'RmutpTicket is an innovative event management platform for the RMUTP community. It features ticket booking, event scheduling, and interactive maps, making campus event organization and participation seamless and efficient.',
+  // Shortened and optimized the description for better SEO.
   icons: {
-    icon: '/assets/images/logo.svg'
-  }
-}
+    icon: '/assets/images/logo.svg', // Ensure this path is correct and accessible
+    // appleTouchIcon: '/assets/images/apple-touch-icon.png', // Add Apple touch icon for better mobile experience
+    // favicon32: '/assets/images/favicon-32x32.png', // Add 32x32 favicon
+    // favicon16: '/assets/images/favicon-16x16.png', // Add 16x16 favicon
+  },
+  // // Added more icon sizes for various devices
+  // og: {
+  //   type: 'website',
+  //   url: 'https://www.yourwebsite.com', // Replace with your actual URL
+  //   title: 'MyTicket - RMUTP Event Platform',
+  //   description: 'Join the RMUTP community in seamless event organization and participation with RmutpTicket.',
+  //   image: '/assets/images/social-preview.png', // Social media preview image
+  // },
+  // // Added Open Graph metadata for better social media sharing
+  // twitter: {
+  //   card: 'summary_large_image',
+  //   site: '@YourTwitterHandle', // Replace with your Twitter handle
+  //   creator: '@YourTwitterHandle', // Replace with the creator's Twitter handle
+  //   image: '/assets/images/social-preview.png',
+  // },
+  // // Added Twitter card metadata
+};
 
 export default function RootLayout({
   children,
