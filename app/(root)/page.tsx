@@ -33,13 +33,13 @@ export default async function Home({ searchParams }: SearchParamProps) {
             </Button>
           </div>
 
-          {/* <Image 
+          <Image 
             src="/assets/images/hero.png"
             alt="hero"
             width={1000}
             height={1000}
             className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]"
-          /> */}
+          />
         </div>
       </section> 
 
