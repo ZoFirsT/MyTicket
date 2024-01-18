@@ -42,7 +42,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
             alt="hero"
             width={1000}
             height={1000}
-            className="max-h-[70vh] 2xl:max-h-[50vh] object-contain object-center hover:scale-110 transition-transform duration-500 ease-in-out shadow-lg rounded-lg hover:shadow-2xl"
+            className="max-h-[70vh] 2xl:max-h-[50vh] object-contain object-center hover:scale-104transition-transform duration-500 ease-in-out shadow-lg rounded-2xl hover:shadow-2xl"
           />
         </div>
       </section>
