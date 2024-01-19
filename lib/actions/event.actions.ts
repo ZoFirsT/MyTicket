@@ -35,12 +35,18 @@ export async function createEvent({ userId, event, path }: CreateEventParams) {
     const organizer = await User.findById(userId)
     if (!organizer) throw new Error('Organizer not found')
 
+    console.log({
+      categoryId: event.categoryId,
+      organizerId: userId,
+    })
+
     const newEvent = await Event.create({ ...event, category: event.categoryId, organizer: userId })
     revalidatePath(path)
 
     return JSON.parse(JSON.stringify(newEvent))
   } catch (error) {
-    handleError(error)
+    console.log(error);
+    handleError(error);
   }
 }
 
@@ -168,6 +174,7 @@ export async function getRelatedEventsByCategory({
 
     return { data: JSON.parse(JSON.stringify(events)), totalPages: Math.ceil(eventsCount / limit) }
   } catch (error) {
-    handleError(error)
+    console.log(error);
+    handleError(error); 
   }
 }

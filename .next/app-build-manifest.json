@@ -6,15 +6,37 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/(root)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(root)/layout.js"
+    ],
+    "/(root)/events/create/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(root)/events/create/page.css",
+      "static/chunks/app/(root)/events/create/page.js"
+    ],
+    "/(root)/events/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(root)/events/[id]/page.js"
+    ],
     "/(root)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/page.js"
     ],
-    "/(root)/layout": [
+    "/(root)/events/[id]/update/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/layout.js"
+      "static/css/app/(root)/events/[id]/update/page.css",
+      "static/chunks/app/(root)/events/[id]/update/page.js"
+    ],
+    "/(root)/profile/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(root)/profile/page.js"
     ],
     "/(auth)/layout": [
       "static/chunks/webpack.js",
@@ -30,17 +52,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(auth)/sign-up/[[...sign-up]]/page.js"
-    ],
-    "/(root)/events/create/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(root)/events/create/page.css",
-      "static/chunks/app/(root)/events/create/page.js"
-    ],
-    "/(root)/profile/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/profile/page.js"
     ]
   }
 }

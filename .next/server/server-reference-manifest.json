@@ -1,142 +1,182 @@
 {
   "node": {
+    "1f8bd8da316f0b59e58edfda3264214fc0113ce6": {
+      "workers": {
+        "app/(root)/events/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/events/[id]/update/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(root)/events/create/page": "action-browser",
+        "app/(root)/page": "action-browser",
+        "app/(root)/events/[id]/update/page": "action-browser"
+      }
+    },
+    "775cf2e896bac55be0004b21be9365cb582d3f52": {
+      "workers": {
+        "app/(root)/events/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/events/[id]/update/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(root)/events/create/page": "action-browser",
+        "app/(root)/page": "action-browser",
+        "app/(root)/events/[id]/update/page": "action-browser"
+      }
+    },
     "257dda53d068f688f95053da835851bbe9acfec4": {
       "workers": {
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/events/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/events/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/events/[id]/update/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/profile/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/page": "rsc",
         "app/(root)/events/create/page": "action-browser",
+        "app/(root)/events/[id]/page": "rsc",
+        "app/(root)/page": "rsc",
+        "app/(root)/events/[id]/update/page": "rsc",
         "app/(root)/profile/page": "rsc"
       }
     },
     "370b0d620d4576c3abe5da701f8c5058b04b22d5": {
       "workers": {
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/events/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/events/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/events/[id]/update/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/profile/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/page": "rsc",
         "app/(root)/events/create/page": "action-browser",
+        "app/(root)/events/[id]/page": "rsc",
+        "app/(root)/page": "rsc",
+        "app/(root)/events/[id]/update/page": "rsc",
         "app/(root)/profile/page": "rsc"
       }
     },
     "4bea24b18bce2c0a3fde4e8288db8f0fb084f4c1": {
       "workers": {
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/events/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/events/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/events/[id]/update/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/profile/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/page": "rsc",
         "app/(root)/events/create/page": "action-browser",
+        "app/(root)/events/[id]/page": "rsc",
+        "app/(root)/page": "rsc",
+        "app/(root)/events/[id]/update/page": "rsc",
         "app/(root)/profile/page": "rsc"
       }
     },
     "83d0b1f8177b048c684bf116f6d25d475fbd472a": {
       "workers": {
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/events/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/events/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/events/[id]/update/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/profile/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/page": "rsc",
         "app/(root)/events/create/page": "action-browser",
+        "app/(root)/events/[id]/page": "rsc",
+        "app/(root)/page": "rsc",
+        "app/(root)/events/[id]/update/page": "rsc",
         "app/(root)/profile/page": "rsc"
       }
     },
     "9c4a8fc9cba6e1348cdb222b6a8a5ea5885abfa5": {
       "workers": {
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/events/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/events/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/events/[id]/update/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/profile/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/page": "rsc",
         "app/(root)/events/create/page": "action-browser",
+        "app/(root)/events/[id]/page": "rsc",
+        "app/(root)/page": "rsc",
+        "app/(root)/events/[id]/update/page": "rsc",
         "app/(root)/profile/page": "rsc"
       }
     },
     "aa6efdabdef706463c3fce04de0e1aa8839bb80a": {
       "workers": {
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/events/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/events/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/events/[id]/update/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/profile/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/page": "rsc",
         "app/(root)/events/create/page": "action-browser",
+        "app/(root)/events/[id]/page": "rsc",
+        "app/(root)/page": "rsc",
+        "app/(root)/events/[id]/update/page": "rsc",
         "app/(root)/profile/page": "rsc"
       }
     },
     "d2264b0cb8fddc27fe874be83b589f6b6e64c13a": {
       "workers": {
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/events/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/events/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
+        "app/(root)/events/[id]/update/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/profile/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/page": "rsc",
         "app/(root)/events/create/page": "action-browser",
+        "app/(root)/events/[id]/page": "rsc",
+        "app/(root)/page": "rsc",
+        "app/(root)/events/[id]/update/page": "rsc",
         "app/(root)/profile/page": "rsc"
-      }
-    },
-    "1f8bd8da316f0b59e58edfda3264214fc0113ce6": {
-      "workers": {
-        "app/(root)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%5D&__client_imported__=true!",
-        "app/(root)/events/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/(root)/page": "action-browser",
-        "app/(root)/events/create/page": "action-browser"
-      }
-    },
-    "775cf2e896bac55be0004b21be9365cb582d3f52": {
-      "workers": {
-        "app/(root)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%5D&__client_imported__=true!",
-        "app/(root)/events/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fcategory.actions.ts%22%2C%5B%22getAllCategories%22%2C%22createCategory%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/(root)/page": "action-browser",
-        "app/(root)/events/create/page": "action-browser"
       }
     },
     "c6cbd559ad182725decbe327c7b026f27ab7328c": {
       "workers": {
+        "app/(root)/events/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=true!",
         "app/(root)/profile/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/(root)/events/[id]/page": "action-browser",
         "app/(root)/profile/page": "rsc"
       }
     },
     "d1b972414a1175c4bc88b81490b8f13aaf82c442": {
       "workers": {
+        "app/(root)/events/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=true!",
         "app/(root)/profile/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/(root)/events/[id]/page": "action-browser",
         "app/(root)/profile/page": "rsc"
       }
     },
     "d789d9ef994188a10f18f2a527197d3e3d961d9f": {
       "workers": {
+        "app/(root)/events/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=true!",
         "app/(root)/profile/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/(root)/events/[id]/page": "action-browser",
         "app/(root)/profile/page": "rsc"
       }
     },
     "fe803fd6fd35cb3e9f9c6f871bed4f4263bcac0d": {
       "workers": {
+        "app/(root)/events/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=true!",
         "app/(root)/profile/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Fevent.actions.ts%22%2C%5B%22getEventById%22%2C%22createEvent%22%2C%22getAllEvents%22%2C%22getEventsByUser%22%2C%22getRelatedEventsByCategory%22%2C%22deleteEvent%22%2C%22updateEvent%22%5D%5D%2C%5B%22%2FUsers%2Fthanatchasaleekongchai%2FDocuments%2FGitHub%2FMyTicket%2Flib%2Factions%2Forder.actions.ts%22%2C%5B%22getOrdersByEvent%22%2C%22getOrdersByUser%22%2C%22createOrder%22%2C%22checkoutOrder%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/(root)/events/[id]/page": "action-browser",
         "app/(root)/profile/page": "rsc"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "fcZRx+hf+UunLK5LwxEAy71/6FhiDlXiJwbEwIsMHLY="
+  "encryptionKey": "1XAFsesStJq3e5F6I3ol1U3StRiqk3r4qAQ4FboCLbc="
 }

@@ -1,5 +1,5 @@
 node_modules
+package-lock 2.json
 .env.local
 .env
-package-lock.json
 .next
