@@ -1,7 +1,0 @@
-{
-  "/(root)/page": "app/(root)/page.js",
-  "/(root)/events/create/page": "app/(root)/events/create/page.js",
-  "/(root)/events/[id]/page": "app/(root)/events/[id]/page.js",
-  "/(root)/events/[id]/update/page": "app/(root)/events/[id]/update/page.js",
-  "/(root)/profile/page": "app/(root)/profile/page.js"
-}
