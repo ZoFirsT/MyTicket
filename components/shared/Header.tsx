@@ -7,12 +7,13 @@ import MobileNav from "./MobileNav"
 
 const Header = () => {
   return (
-    <header className="w-full border-b">
+    <div className="px-1 pt-1 pb-5">
+    <header className="w-full border-b bg-purple-100 rounded-xl">
       <div className="wrapper flex items-center justify-between">
         <Link href="/" className="w-36">
           <Image 
             src="/assets/images/logo.svg" width={128} height={38}
-            alt="Evently logo" 
+            alt="RMUTP logo" 
           />
         </Link>
 
@@ -37,6 +38,7 @@ const Header = () => {
         </div>
       </div>
     </header>
+    </div>
   )
 }
 
