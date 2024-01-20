@@ -74,7 +74,11 @@
 }
 
 body {
-  font-family: var(--font-poppins)
+  font-family: var(--font-poppins);
+  background-image: url("https://utfs.io/f/b50f9730-7fe5-4b5c-9cb3-6d8d23c07cc2-da882y.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .filter-grey {

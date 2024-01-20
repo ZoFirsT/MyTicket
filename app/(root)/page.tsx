@@ -51,7 +51,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
         id="events"
         className="wrapper my-8 flex flex-col gap-8 md:gap-12"
       >
-        <h2 className="h2-bold m-auto">
+        <h2 className="h2-bold m-auto text-white">
           Now Events
         </h2>
 
