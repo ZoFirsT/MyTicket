@@ -38,15 +38,15 @@ export default async function Home({ searchParams }: SearchParamProps) {
             </Button>
           </div>
 
-          <Rocket/>
+          {/* <Rocket/> */}
 
-          {/* <Image
+          <Image
             src="/assets/images/hero.png"
             alt="hero"
             width={1000}
             height={1000}
             className="max-h-[70vh] 2xl:max-h-[50vh] object-contain object-center hover:scale-104transition-transform duration-500 ease-in-out shadow-lg rounded-2xl hover:shadow-2xl"
-          /> */}
+          />
         </div>
       </section>
 
