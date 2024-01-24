@@ -26,19 +26,12 @@ export const metadata: Metadata = {
   // // Added more icon sizes for various devices
   // og: {
   //   type: 'website',
-  //   url: 'https://www.yourwebsite.com', // Replace with your actual URL
+  //   url: 'https://myticket.zofirst.dev', // Replace with your actual URL
   //   title: 'MyTicket - RMUTP Event Platform',
   //   description: 'Join the RMUTP community in seamless event organization and participation with RmutpTicket.',
   //   image: '/assets/images/social-preview.png', // Social media preview image
   // },
   // // Added Open Graph metadata for better social media sharing
-  // twitter: {
-  //   card: 'summary_large_image',
-  //   site: '@YourTwitterHandle', // Replace with your Twitter handle
-  //   creator: '@YourTwitterHandle', // Replace with the creator's Twitter handle
-  //   image: '/assets/images/social-preview.png',
-  // },
-  // // Added Twitter card metadata
 };
 
 export default function RootLayout({

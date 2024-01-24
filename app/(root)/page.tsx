@@ -26,7 +26,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
         <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
           <div className="flex flex-col justify-center gap-8">
             <h1 className="h1-bold">Rmutp-Ticket</h1>
-            <p className="p-regular-16 md:p-regular-20">
+            <p className="p-regular-14 md:p-regular-18">
               RmutpTicket is an innovative event management platform designed
               specifically for RMUTP community. Offering features like ticket
               booking, event scheduling, and interactive maps, it serves as a
