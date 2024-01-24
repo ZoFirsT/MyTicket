@@ -34,7 +34,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
               participate in campus events efficiently.
             </p>
             <Button size="lg" asChild className="button w-full sm:w-fit">
-              <Link href="#events">Explore Now</Link>
+              <Link href="#events">Visit Now</Link>
             </Button>
           </div>
 
