@@ -6,7 +6,6 @@ import { getAllEvents } from "@/lib/actions/event.actions";
 import { SearchParamProps } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
-import Rocket from "@/components/shared/3DUi/TC3D";
 
 export default async function Home({ searchParams }: SearchParamProps) {
   const page = Number(searchParams?.page) || 1;
@@ -38,8 +37,6 @@ export default async function Home({ searchParams }: SearchParamProps) {
             </Button>
           </div>
 
-          {/* <Rocket/> */}
-
           <Image
             src="/assets/images/hero.png"
             alt="hero"
@@ -54,9 +51,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
         id="events"
         className="wrapper my-8 flex flex-col gap-8 md:gap-12"
       >
-        <h2 className="h2-bold m-auto text-white">
-          Now Events
-        </h2>
+        <h2 className="h2-bold m-auto text-white">Now Events</h2>
 
         <div className="flex w-full flex-col gap-5 md:flex-row">
           <Search />
