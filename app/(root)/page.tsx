@@ -31,13 +31,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
                 แพลตฟอร์มจำหน่ายตั๋วออนไลน์ <br/> ที่มอบความสะดวก รวดเร็ว และปลอดภัย
                 ให้คุณสามารถเข้าถึงกิจกรรมหลากหลายรูปแบบที่จัดขึ้นโดยมหาวิทยาลัยเทคโนโลยีราชมงคลพระนครได้ง่ายกว่าที่เคย
               </p>
-              <Button
-                size="lg"
-                asChild
-                className="bg-[#F3E8FF] text-indigo-700 text-xl font-bold max-w-72 hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-full shadow-md border-4 border-[#CBC4FA]"
-              >
-                <Link href="#events">ดู Event</Link>
-              </Button>
+              
             </div>
 
             <Image
