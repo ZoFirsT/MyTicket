@@ -28,7 +28,7 @@ const Collection = ({
   const eventElements = useMemo(() => data.map((event) => {
     if (!event || !event._id) {
       // Handle invalid or missing event._id gracefully
-      return <div key={event?._id || Math.random()}>Invalid event</div>;
+      return <div key={event?._id || Math.random()}></div>;
     }
 
     const hasOrderLink = collectionType === 'Events_Organized';

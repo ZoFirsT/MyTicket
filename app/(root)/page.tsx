@@ -21,53 +21,57 @@ export default async function Home({ searchParams }: SearchParamProps) {
 
   return (
     <>
-      <section className="bg-purple-50 border-2 border-gray-200 bg-dotted-pattern bg-contain py-5 md:py-10 rounded-xl">
-        <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
-          <div className="flex flex-col justify-center gap-8">
-            <h1 className="h1-bold">Rmutp-Ticket</h1>
-            <p className="p-regular-14 md:p-regular-18">
-              RmutpTicket is an innovative event management platform designed
-              specifically for RMUTP community. Offering features like ticket
-              booking, event scheduling, and interactive maps, it serves as a
-              one-stop solution for students and faculty to organize and
-              participate in campus events efficiently.
-            </p>
-            <Button size="lg" asChild className="button w-full sm:w-fit">
-              <Link href="#events">Visit Now</Link>
-            </Button>
+      <div className="bg-black/20 rounded-2xl p-2 border-4 border-[#CBC4FA]">
+        <section className="bg-gradient-to-r from-[#7B5D9D]/70 to-[#8C80DA]/90 py-5 md:py-10 rounded-xl">
+          <div className="container mx-auto grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
+            <div className="flex flex-col justify-center gap-8">
+              <h1 className="text-white text-4xl font-bold">Rmutp-Ticket</h1>
+              <p className="text-white text-lg leading-relaxed">
+                RMUTP-Ticket ประตูสู่โลกแห่งกิจกรรมมหาวิทยาลัย
+                แพลตฟอร์มจำหน่ายตั๋วออนไลน์ <br/> ที่มอบความสะดวก รวดเร็ว และปลอดภัย
+                ให้คุณสามารถเข้าถึงกิจกรรมหลากหลายรูปแบบที่จัดขึ้นโดยมหาวิทยาลัยเทคโนโลยีราชมงคลพระนครได้ง่ายกว่าที่เคย
+              </p>
+              <Button
+                size="lg"
+                asChild
+                className="bg-[#F3E8FF] text-indigo-700 text-xl font-bold max-w-72 hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-full shadow-md border-4 border-[#CBC4FA]"
+              >
+                <Link href="#events">ดู Event</Link>
+              </Button>
+            </div>
+
+            <Image
+              src="/assets/images/hero.png"
+              alt="hero"
+              width={1000}
+              height={1000}
+              className="max-h-[70vh] 2xl:max-h-[50vh] object-contain object-center hover:scale-104 transition-transform duration-500 ease-in-out shadow-lg rounded-2xl hover:shadow-2xl"
+            />
+          </div>
+        </section>
+
+        <section
+          id="events"
+          className="wrapper my-8 flex flex-col gap-8 md:gap-12"
+        >
+          <h2 className="h2-bold m-auto text-white">Now Events</h2>
+
+          <div className="flex w-full flex-col gap-5 md:flex-row">
+            <Search />
+            <CategoryFilter />
           </div>
 
-          <Image
-            src="/assets/images/hero.png"
-            alt="hero"
-            width={1000}
-            height={1000}
-            className="max-h-[70vh] 2xl:max-h-[50vh] object-contain object-center hover:scale-104transition-transform duration-500 ease-in-out shadow-lg rounded-2xl hover:shadow-2xl"
+          <Collection
+            data={events?.data}
+            emptyTitle="No Events Found"
+            emptyStateSubtext="Come back later"
+            collectionType="All_Events"
+            limit={6}
+            page={page}
+            totalPages={events?.totalPages}
           />
-        </div>
-      </section>
-
-      <section
-        id="events"
-        className="wrapper my-8 flex flex-col gap-8 md:gap-12"
-      >
-        <h2 className="h2-bold m-auto text-white">Now Events</h2>
-
-        <div className="flex w-full flex-col gap-5 md:flex-row">
-          <Search />
-          <CategoryFilter />
-        </div>
-
-        <Collection
-          data={events?.data}
-          emptyTitle="No Events Found"
-          emptyStateSubtext="Come back later"
-          collectionType="All_Events"
-          limit={6}
-          page={page}
-          totalPages={events?.totalPages}
-        />
-      </section>
+        </section>
+      </div>
     </>
   );
 }

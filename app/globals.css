@@ -74,15 +74,9 @@
 }
 
 body {
-  font-family: var(--font-poppins);
-  /* background-image: url('../public/assets/wallpapers/background_main.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; */
-  background-color: #a99df799;
-  background: blur(10px);
-  
+  font-family: var(--font-Anuphan), sans-serif;
 }
+
 
 .filter-grey {
   filter: brightness(0) saturate(100%) invert(47%) sepia(0%) saturate(217%)
