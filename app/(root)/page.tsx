@@ -35,11 +35,11 @@ export default async function Home({ searchParams }: SearchParamProps) {
             </div>
 
             <Image
-              src="/assets/images/hero.png"
+              src="/assets/images/Hero.png"
               alt="hero"
               width={1000}
               height={1000}
-              className="max-h-[70vh] 2xl:max-h-[50vh] object-contain object-center hover:scale-104 transition-transform duration-500 ease-in-out shadow-lg rounded-2xl hover:shadow-2xl"
+              className="max-h-[70vh] 2xl:max-h-[50vh] object-contain object-center hover:scale-104 transition-transform duration-500 ease-in-out shadow-2xl rounded-2xl shadow-[#9e7eb9] border-4 border-[#593185]/50"
             />
           </div>
         </section>
