@@ -15,7 +15,7 @@ const Footer = () => {
           />
         </Link>
 
-        <p>2024 RmutpTeam(TC64). All Rights reserved.</p>
+        <p className="text-[#F3E8FF] font-bold">2024 RmutpTeam(TC64). All Rights reserved.</p>
       </div>
     </footer>
     </div>
