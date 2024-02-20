@@ -22,7 +22,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
   return (
     <>
       <div className="bg-black/20 rounded-2xl p-2 border-4 border-[#CBC4FA]">
-        <section className="bg-gradient-to-r from-[#7B5D9D]/70 to-[#8C80DA]/90 py-5 md:py-10 rounded-xl">
+        <section className="bg-gradient-to-r from-[#7B5D9D]/20 to-[#8C80DA]/20 py-5 md:py-10 shadow-[#9e7eb9]/20 shadow-xl rounded-xl">
           <div className="container mx-auto grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
             <div className="flex flex-col justify-center gap-8">
               <h1 className="text-white text-4xl font-bold">Rmutp-Ticket</h1>
